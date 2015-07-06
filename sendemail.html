@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+</head>
+
+<body>
+		<a href="admin_manage.php">Admin page</a>
+		<h2>Write and send email to the mailing list</h2><br />
+		<br/><br/>
+		<form method="post" action="sendemail.php">
+			<label for="subject">Subject of email:</label><br/>
+			<input type="text" id="subject" name="subject" size="60"/><br/>
+			<label for="body">Body of mail:</label><br/>
+			<textarea id="body" name="body" rows="8" cols="60"></textarea><br/>
+			<input type="submit" name="submit" value="Submit"/>				
+		</form>
+</body>
+
+</html>
